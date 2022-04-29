@@ -76,10 +76,10 @@ count = 0
 pins.digitalWritePin(DigitalPin.P16, 0)
 clearALL()
 led.enable(false)
-firstTime = 10
-secondTime = 15
-thirdTime = 20
-fourthTime = 25
+firstTime = 900
+secondTime = 1800
+thirdTime = 2700
+fourthTime = 3600
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P3) == 0) {
         clearALL()
